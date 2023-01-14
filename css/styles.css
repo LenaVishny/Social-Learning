@@ -39,3 +39,52 @@ body {
     font-style: normal;
     color: #000000;
 }
+.group__logo {
+    position: absolute;
+    width: 36px;
+    height: 38px;
+    left: 162px;
+    top: 24px;
+}
+.group__text {
+    position: absolute;
+    width: 328px;
+    height: 116px;
+    left: 16px;
+    top: 84px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+.registration {
+    box-sizing: border-box;
+    position: absolute;
+    width: 328px;
+    height: 52px;
+    left: 16px;
+    top: 224px;
+    background: #0057FF;
+    border: 1px solid #0057FF;
+    border-radius: 10px;
+}
+.login {
+    box-sizing: border-box;
+    position: absolute;
+    width: 328px;
+    height: 52px;
+    left: 16px;
+    top: 292px;
+    border: 1px solid #0057FF;
+    border-radius: 10px;
+}
+.cover {
+    background-image: url('foto.jpg');
+    position: absolute;
+    width: 360px;
+    height: 160px;
+    left: 0px;
+    top: 368px;
+}
