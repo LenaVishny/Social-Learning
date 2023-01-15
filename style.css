@@ -1,0 +1,93 @@
+/* lato-300 - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/lato-v23-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* lato-700 - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/lato-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* lato-900 - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/lato-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body {
+    font-family: 'Lato';
+    font-style: normal;
+    color: #000000;
+}
+.group__logo {
+    position: absolute;
+    width: 36px;
+    height: 38px;
+    left: 162px;
+    top: 24px;
+}
+.group__text {
+    position: absolute;
+    width: 328px;
+    height: 116px;
+    left: 16px;
+    top: 84px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+.registration {
+    box-sizing: border-box;
+    position: absolute;
+    width: 328px;
+    height: 52px;
+    left: 16px;
+    top: 224px;
+    background: #0057FF;
+    border: 1px solid #0057FF;
+    border-radius: 10px;
+}
+.login {
+    box-sizing: border-box;
+    position: absolute;
+    width: 328px;
+    height: 52px;
+    left: 16px;
+    top: 292px;
+    border: 1px solid #0057FF;
+    border-radius: 10px;
+}
+.cover {
+    background: #C4C4C4;
+    position: absolute;
+}
+.cover_foto {
+    position: absolute;
+    width: 360px;
+    height: 160px;
+    left: 0px;
+    top: 368px;
+}
